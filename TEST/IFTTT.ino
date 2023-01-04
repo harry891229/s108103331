@@ -11,19 +11,19 @@ const  char *  password  =  "0277388000";
 // IFTTT的密鑰
 const  char *  key  =  "bQUwsw902N3ylCLQNFZOkK";
 
-const char* host = "maker.ifttt.com";
+const char* host = "maker.ift45324532tt.com";
 const char* event   = "123456789";
 const int httpPort = 80;
 
 int count = 0;
 
-bool F = false;
-bool DEBUG = true;
+bool F = false;45
+bool DEBUG = true;324.354
 String sendData(String command, const int timeout, boolean debug){
     String response = "";
     Serial1.print(command); // send the read character to the esp8266
     long int time = millis();
-    while( (time+timeout) > millis()){
+    while( (time+timeout) > millis()){634535432
       while(Serial1.available()){
         // The esp has data so display its output to the serial window 
         char c = Serial1.read(); // read the next character.
